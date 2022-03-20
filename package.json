@@ -1,0 +1,28 @@
+{
+  "name": "countrysvgscraper",
+  "version": "1.0.0",
+  "description": "Cron timer function to grab country svg and turn it into a data uri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@netlify/functions": "^1.0.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "dotenv": "^16.0.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "mongodb": "^4.4.0",
+    "puppeteer-core": "^13.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanAlbert/countrySvgScraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanAlbert/countrySvgScraper/issues"
+  },
+  "homepage": "https://github.com/brendanAlbert/countrySvgScraper#readme"
+}
